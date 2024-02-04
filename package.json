@@ -5,10 +5,16 @@
     "packages/*"
   ],
   "scripts": {
+    "build-all": "nx run-many --target=build --all",
+    "postinstall": "npm run build-all",
     "prepare": "ts-scripts install"
   },
   "devDependencies": {
     "@borderless/ts-scripts": "^0.15.0",
+    "nx": "18.0.0",
     "typescript": "^5.2.2"
+  },
+  "nx": {
+    "targets": {}
   }
 }
