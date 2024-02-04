@@ -1,5 +1,5 @@
 {
-  "name": "change-case-commonjs",
+  "name": "change-case-commonjs-root",
   "private": true,
   "workspaces": [
     "packages/*"

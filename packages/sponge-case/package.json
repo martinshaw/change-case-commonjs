@@ -1,5 +1,5 @@
 {
-  "name": "sponge-case",
+  "name": "sponge-case-commonjs",
   "version": "2.0.3",
   "description": "Transform into a string with random capitalization applied",
   "keywords": [
