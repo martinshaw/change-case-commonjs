@@ -11,20 +11,27 @@
     "lower",
     "upper"
   ],
-  "homepage": "https://github.com/blakeembrey/change-case/tree/master/packages/swap-case#readme",
+  "homepage": "https://github.com/martinshaw/change-case-commonjs/tree/master/packages/swap-case#readme",
   "bugs": {
-    "url": "https://github.com/blakeembrey/change-case/issues"
+    "url": "https://github.com/martinshaw/change-case-commonjs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/blakeembrey/change-case.git"
+    "url": "git://github.com/martinshaw/change-case-commonjs.git"
   },
   "license": "MIT",
-  "author": {
-    "name": "Blake Embrey",
-    "email": "hello@blakeembrey.com",
-    "url": "http://blakeembrey.me"
-  },
+  "contributors": [
+    {
+      "name": "Blake Embrey",
+      "email": "hello@blakeembrey.com",
+      "url": "http://blakeembrey.me"
+    },
+    {
+      "name": "Martin Shaw",
+      "email": "developer@martinshaw.co",
+      "url": "https://martinshaw.co"
+    }
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [

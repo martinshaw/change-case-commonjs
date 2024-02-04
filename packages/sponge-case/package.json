@@ -13,20 +13,27 @@
     "transform",
     "capitalize"
   ],
-  "homepage": "https://github.com/blakeembrey/change-case/tree/master/packages/sponge-case#readme",
+  "homepage": "https://github.com/martinshaw/change-case-commonjs/tree/master/packages/sponge-case#readme",
   "bugs": {
-    "url": "https://github.com/blakeembrey/change-case/issues"
+    "url": "https://github.com/martinshaw/change-case-commonjs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/blakeembrey/change-case.git"
+    "url": "git://github.com/martinshaw/change-case-commonjs.git"
   },
   "license": "MIT",
-  "author": {
-    "name": "Nate Rabins",
-    "email": "nrabins@gmail.com",
-    "url": "http://rabins.dev"
-  },
+  "contributors": [
+    {
+      "name": "Nate Rabins",
+      "email": "nrabins@gmail.com",
+      "url": "http://rabins.dev"
+    },
+    {
+      "name": "Martin Shaw",
+      "email": "developer@martinshaw.co",
+      "url": "https://martinshaw.co"
+    }
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
