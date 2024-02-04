@@ -25,22 +25,14 @@
     "email": "hello@blakeembrey.com",
     "url": "http://blakeembrey.me"
   },
-  "type": "module",
-  "exports": {
-    ".": "./dist/index.js"
-  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist/"
   ],
   "scripts": {
-    "bench": "vitest bench",
     "build": "ts-scripts build",
-    "format": "ts-scripts format",
-    "prepublishOnly": "npm run build",
-    "specs": "ts-scripts specs",
-    "test": "ts-scripts test"
+    "prepublishOnly": "npm run build"
   },
   "publishConfig": {
     "access": "public"

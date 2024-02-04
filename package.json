@@ -9,8 +9,6 @@
   },
   "devDependencies": {
     "@borderless/ts-scripts": "^0.15.0",
-    "@vitest/coverage-v8": "^1.0.1",
-    "typescript": "^5.2.2",
-    "vitest": "^1.0.1"
+    "typescript": "^5.2.2"
   }
 }
