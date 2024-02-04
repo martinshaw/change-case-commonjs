@@ -6,8 +6,7 @@
   ],
   "scripts": {
     "build-all": "nx run-many --target=build --all",
-    "postinstall": "ts-scripts install && npm run build-all",
-    "prepare": "ts-scripts install"
+    "prepare": "npx ts-scripts install"
   },
   "devDependencies": {
     "@borderless/ts-scripts": "^0.15.0",
