@@ -1,6 +1,6 @@
 {
   "name": "swap-case-commonjs",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "Transform a string by swapping every character from upper to lower case, or lower to upper case",
   "keywords": [
     "swap",
